@@ -126,12 +126,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 * {
   box-sizing: border-box;
   background-color: #596157;
@@ -147,12 +141,15 @@ table {
   align-items: center;
   justify-content: center;
   padding: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 * .header {
   font-size: 26px;
   font-family: 'Patrick Hand', cursive;
   display: flex;
-  align-items: center;
   padding: 40px;
 }
 * .bodyParagraph {
