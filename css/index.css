@@ -144,13 +144,13 @@ table {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
 * .header {
   font-size: 26px;
   font-family: 'Patrick Hand', cursive;
   display: flex;
-  padding: 40px;
+  padding: 30px;
 }
 * .bodyParagraph {
   font-size: 20px;
@@ -170,7 +170,7 @@ table {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
 ul {
   column-count: 3;
