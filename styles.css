@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    background-color: #596157;
+    color: #cfd186;
+}
+
+.img {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    border: 5px solid black; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+p {
+   padding: 10px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+
+.head{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 54px;
+    justify-content: space-evenly;
+    
+}
