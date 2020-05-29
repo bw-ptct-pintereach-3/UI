@@ -4,31 +4,63 @@
 
 * {
     box-sizing: border-box;
+    background-color: @bg-color;
+    color: @font-color;
+
+.flex-container {
+    display: flex;
 }
 
 .topHeading {
-    font-size: 40px;
+    font-size: 52px;
     font-family: 'Patrick Hand', cursive;
     display: flex; 
     align-items: center;
-
+    justify-content: center;
+    padding: 30px;
 }
 
-.header{
-    font-size: 24px;
-    font-family: Georgia;
-    display: flex;
-    align-items: center; 
 
+.header{
+    font-size: 26px;
+    font-family: 'Patrick Hand', cursive;
+    display: flex; 
+    padding: 30px;
 
 }
 
 .bodyParagraph{
-    font-size: 18px;
-    font-family: Georgia; 
+    font-size: 20px;
     display: flex;
-    margin: 2px;
-    width: 50%; 
-    flex-wrap: wrap;
+    margin: auto;
+    padding: 8px;
+    width: 80%; 
+    justify-content: flex-start;
+    font-family: 'Spectral', serif;
 
 }
+
+img {
+    width: 70%;
+    display: flex;
+    height: 80%;
+    padding: 10px;
+    border: 5px solid black; 
+    .center()
+}
+
+ ul {
+     column-count: 3;
+     font-size: 20px;
+ }
+
+ @media (max-width: 500px) {
+    img {
+        width: 70%;
+        height: 60%;
+    }
+    ul {
+        column-count: 2;
+    }
+     
+ }
