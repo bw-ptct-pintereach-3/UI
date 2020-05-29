@@ -150,10 +150,8 @@ p {
    align-items: center;
   }
 
-
-.heading{
+.head{
     font-family: 'Patrick Hand', cursive;
     font-size: 54px;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;    
 }
