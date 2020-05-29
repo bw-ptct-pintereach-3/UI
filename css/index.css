@@ -176,6 +176,23 @@ ul {
   column-count: 3;
   font-size: 20px;
 }
+nav {
+  display: flex;
+  font-family: 'Patrick Hand', cursive;
+  text-decoration: none;
+  align-items: flex-end;
+  padding: 10px;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+a {
+  display: flex;
+  font-family: 'Patrick Hand', cursive;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
 @media (max-width: 500px) {
   img {
     width: 70%;
